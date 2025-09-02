@@ -5,22 +5,22 @@ import { Target, Eye, Award, Users, Wrench, Home } from 'lucide-react';
 export default function About(){
   const teamMembers = [
     {
-      name: "Malleshwara",
-      role: "Founder & Lead Engineer",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
-      experience: "20+ years"
-    },
-    {
-      name: "Rajesh Kumar",
-      role: "Project Manager",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300",
+      name: "Jagadeesh H S",
+      role: "Founder ",
+      image: "/gallery/jagadeesh.jpg",
       experience: "15+ years"
     },
     {
-      name: "Suresh Babu",
+      name: "Manjunath H S",
+      role: "Project Manager",
+      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300",
+      experience: "10+ years"
+    },
+    {
+      name: "Manjanna",
       role: "Site Supervisor",
       image: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=300",
-      experience: "12+ years"
+      experience: "5+ years"
     }
   ];
 
@@ -48,13 +48,14 @@ export default function About(){
               Our Story
             </h3>
             <p style={{color:'var(--muted)', lineHeight: 1.6, marginBottom: 16}}>
-              Founded in 2005 by Malleshwara, our family-owned construction company has grown from 
-              humble beginnings to become one of Bengaluru's most trusted construction partners. 
+              Founded in 2019 by Jagadeesh, our family-owned construction company has grown from 
+              humble beginnings to become one of Tumkuru's most trusted construction partners. 
               We believe that every structure we build should stand as a testament to quality, 
-              durability, and craftsmanship.
+              durability, and craftsmanship.<br/>
+              2019ರಲ್ಲಿ ಜಗದೀಶ್ ಅವರು ಸ್ಥಾಪಿಸಿದ ನಮ್ಮ ಕುಟುಂಬದ ಮಾಲೀಕತ್ವದ ನಿರ್ಮಾಣ ಕಂಪನಿಯು ಸರಳ ಆರಂಭದಿಂದ ತುಮಕೂರಿನ ಅತ್ಯಂತ ವಿಶ್ವಾಸಾರ್ಹ ನಿರ್ಮಾಣ ಸಹಯೋಗಿಗಳಲ್ಲಿ ಒಂದಾಗಿ ಬೆಳೆದಿದೆ. ನಾವು ನಿರ್ಮಿಸುವ ಪ್ರತಿಯೊಂದು ಕಟ್ಟಡವು ಗುಣಮಟ್ಟ, ದೀರ್ಘಾವಧಿ ಮತ್ತು ನಿಪುಣತೆಯ ಸಾಕ್ಷಿಯಾಗಿ ನಿಲ್ಲಬೇಕು ಎಂದು ನಾವು ನಂಬುತ್ತೇವೆ.
             </p>
             <p style={{color:'var(--muted)', lineHeight: 1.6}}>
-              Over the years, we've completed 300+ projects, from cozy family homes to large 
+              Over the years, we've completed 100+ projects, from cozy family homes to large 
               commercial complexes, always maintaining our core values of transparency, 
               quality, and customer satisfaction.
             </p>
@@ -68,9 +69,9 @@ export default function About(){
             viewport={{ once: true }}
           >
             <img 
-              src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400" 
+              src="\gallery\img1.jpg" 
               alt="Construction site" 
-              style={{width: '100%', height: 200, objectFit: 'cover', borderRadius: 12}}
+              style={{width: '150%', height: 400, objectFit: 'cover', borderRadius: 12}}
             />
           </motion.div>
         </div>
@@ -91,7 +92,8 @@ export default function About(){
             <p style={{color:'var(--muted)', lineHeight: 1.6}}>
               To deliver exceptional construction services that exceed expectations while 
               maintaining the highest standards of quality, safety, and environmental responsibility. 
-              We strive to build lasting relationships with our clients through transparency and trust.
+              We strive to build lasting relationships with our clients through transparency and trust.<br/>
+              ಗ್ರಾಹಕರ ನಿರೀಕ್ಷೆಗಳನ್ನು ಮೀರುವ ಅತ್ಯುತ್ತಮ ನಿರ್ಮಾಣ ಸೇವೆಗಳನ್ನು ನೀಡುವುದರೊಂದಿಗೆ, ಉನ್ನತ ಗುಣಮಟ್ಟ, ಸುರಕ್ಷತೆ ಮತ್ತು ಪರಿಸರದ ಜವಾಬ್ದಾರಿಯ ಉನ್ನತ ಮಾನದಂಡಗಳನ್ನು ಕಾಪಾಡುವುದು ನಮ್ಮ ಧ್ಯೇಯ. ಪಾರದರ್ಶಕತೆ ಮತ್ತು ನಂಬಿಕೆಯ ಮೂಲಕ ನಮ್ಮ ಗ್ರಾಹಕರೊಂದಿಗೆ ದೀರ್ಘಕಾಲಿಕ ಸಂಬಂಧಗಳನ್ನು ನಿರ್ಮಿಸಲು ನಾವು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ.
             </p>
           </motion.div>
 
@@ -109,7 +111,8 @@ export default function About(){
             <p style={{color:'var(--muted)', lineHeight: 1.6}}>
               To be the leading construction company in South India, known for innovation, 
               sustainability, and creating spaces that enhance lives. We envision a future where 
-              every project contributes positively to the community and environment.
+              every project contributes positively to the community and environment. <br/>
+              ದಕ್ಷಿಣ ಭಾರತದಲ್ಲಿ ಆವಿಷ್ಕಾರ, ಸ್ಥಿರತೆ ಮತ್ತು ಜೀವನವನ್ನು ಸಮೃದ್ಧಗೊಳಿಸುವ ಸ್ಥಳಗಳನ್ನು ನಿರ್ಮಿಸುವ ಮೂಲಕ ಪ್ರಸಿದ್ಧಿ ಪಡೆದ ಪ್ರಮುಖ ನಿರ್ಮಾಣ ಕಂಪನಿಯಾಗುವುದು ನಮ್ಮ ಗುರಿ. ಪ್ರತಿಯೊಂದು ಯೋಜನೆಯೂ ಸಮುದಾಯ ಮತ್ತು ಪರಿಸರಕ್ಕೆ ಧನಾತ್ಮಕವಾಗಿ ಕೊಡುಗೆ ನೀಡುವ ಭವಿಷ್ಯವನ್ನು ನಾವು ಕನಸು ಕಾಣುತ್ತೇವೆ.
             </p>
           </motion.div>
         </div>
@@ -170,11 +173,11 @@ export default function About(){
         >
           <div className="grid cols-3" style={{gap: 24, textAlign: 'center'}}>
             <div>
-              <div style={{fontSize: 32, fontWeight: 700, color: 'var(--accent)'}}>300+</div>
+              <div style={{fontSize: 32, fontWeight: 700, color: 'var(--accent)'}}>100+</div>
               <div style={{color: 'var(--muted)'}}>Completed Projects</div>
             </div>
             <div>
-              <div style={{fontSize: 32, fontWeight: 700, color: 'var(--accent)'}}>20+</div>
+              <div style={{fontSize: 32, fontWeight: 700, color: 'var(--accent)'}}>15+</div>
               <div style={{color: 'var(--muted)'}}>Years Experience</div>
             </div>
             <div>
@@ -194,7 +197,7 @@ export default function About(){
         <div style={{position: 'relative'}}>
           <img 
             alt="construction" 
-            src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" 
+            src="/gallery/img6.jpg" 
             style={{width:'100%', borderRadius: 12, boxShadow:'0 8px 30px rgba(0,0,0,0.2)'}}
           />
           <motion.div 
@@ -216,7 +219,7 @@ export default function About(){
               <Award size={16} />
               Quality Assured
             </div>
-            <div style={{fontSize: 12, color: 'var(--muted)', marginTop: 4}}>2-Year Warranty</div>
+            <div style={{fontSize: 12, color: 'var(--muted)', marginTop: 4}}>5-Year Warranty</div>
           </motion.div>
         </div>
       </motion.div>

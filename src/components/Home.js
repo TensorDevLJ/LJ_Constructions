@@ -57,7 +57,7 @@ export default function Home(){
           </button>
           <a 
             className="btn whatsapp-btn" 
-            href="https://wa.me/919999999999?text=Hello%2C%20I%20want%20a%20quote" 
+            href="https://wa.me/916363450721?text=Hello%2C%20I%20want%20a%20quote" 
             target="_blank" 
             rel="noreferrer"
             style={{textDecoration: 'none', display: 'flex', alignItems: 'center', gap: 8}}
@@ -76,21 +76,21 @@ export default function Home(){
           <div style={{display: 'flex', alignItems: 'center', gap: 8}}>
             <Award size={20} style={{color: 'var(--accent)'}} />
             <div>
-              <div style={{fontWeight: 600}}>300+</div>
+              <div style={{fontWeight: 600}}>100+</div>
               <div style={{fontSize: 12, color: 'var(--muted)'}}>Projects</div>
             </div>
           </div>
           <div style={{display: 'flex', alignItems: 'center', gap: 8}}>
             <Users size={20} style={{color: 'var(--accent)'}} />
             <div>
-              <div style={{fontWeight: 600}}>20+</div>
+              <div style={{fontWeight: 600}}>50+</div>
               <div style={{fontSize: 12, color: 'var(--muted)'}}>Skilled Workers</div>
             </div>
           </div>
           <div style={{display: 'flex', alignItems: 'center', gap: 8}}>
             <Clock size={20} style={{color: 'var(--accent)'}} />
             <div>
-              <div style={{fontWeight: 600}}>2 Years</div>
+              <div style={{fontWeight: 600}}>5 Years</div>
               <div style={{fontSize: 12, color: 'var(--muted)'}}>Warranty</div>
             </div>
           </div>
@@ -106,7 +106,7 @@ export default function Home(){
         <div style={{position: 'relative'}}>
           <img 
             alt="construction" 
-            src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" 
+            src="\gallery\img9.jpg" 
             style={{width:'100%', borderRadius: 12, boxShadow:'0 8px 30px rgba(0,0,0,0.2)'}}
           />
           <motion.div 
@@ -125,7 +125,7 @@ export default function Home(){
             transition={{ delay: 1, duration: 0.5 }}
           >
             <div style={{fontWeight: 600, color: 'var(--accent)'}}>✓ Quality Assured</div>
-            <div style={{fontSize: 12, color: 'var(--muted)', marginTop: 4}}>2-Year Warranty</div>
+            <div style={{fontSize: 12, color: 'var(--muted)', marginTop: 4}}>5-Year Warranty</div>
           </motion.div>
         </div>
       </motion.div>
