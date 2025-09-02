@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
+import Services from './components/Services';
 import Gallery from './components/Gallery';
-import MapSection from './components/MapSection';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,14 +17,15 @@ export default function App(){
       document.documentElement.setAttribute('data-theme', localStorage.getItem('theme'));
     }
   },[]);
+  
   return (
     <div>
       <Header />
       <main className="container">
         <Home />
         <About />
+        <Services />
         <Gallery />
-        <MapSection />
         <Contact />
       </main>
       <Footer />

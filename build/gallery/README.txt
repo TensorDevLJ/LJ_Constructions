@@ -1,0 +1,1 @@
+Place your gallery images here (e.g. photo1.jpg, photo2.jpg).
